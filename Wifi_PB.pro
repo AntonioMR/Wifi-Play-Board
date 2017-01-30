@@ -1,4 +1,4 @@
-update=dom 15 ene 2017 23:45:57 CET
+update=lun 30 ene 2017 17:02:20 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=
@@ -65,13 +75,5 @@ LibName33=/home/amr/Documentos/KiCad/kicad-libraries/Pasivos
 LibName34=/home/amr/Documentos/KiCad/kicad-libraries/matriz_led
 LibName35=/home/amr/Documentos/KiCad/kicad-libraries/Sensores
 LibName36=/home/amr/Documentos/KiCad/kicad-libraries/Reles
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=60
-ERC_TestSimilarLabels=1
+LibName37=/home/amr/Documentos/KiCad/kicad-libraries/Reguladores
+LibName38=/home/amr/Documentos/KiCad/kicad-libraries/Transistores
