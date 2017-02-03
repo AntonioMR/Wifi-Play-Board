@@ -107,12 +107,6 @@ F0 "Pulsadores" 60
 F1 "Pulsadores.sch" 60
 $EndSheet
 $Sheet
-S 5700 3100 1400 1000
-U 583F7030
-F0 "Conectores_E_S" 60
-F1 "Conectores_E_S.sch" 60
-$EndSheet
-$Sheet
 S 8800 3100 1400 1000
 U 588EAC0E
 F0 "Ultrasonidos" 60

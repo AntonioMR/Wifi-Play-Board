@@ -1,4 +1,4 @@
-update=lun 30 ene 2017 17:02:20 CET
+update=sáb 04 feb 2017 00:25:01 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -77,3 +75,5 @@ LibName35=/home/amr/Documentos/KiCad/kicad-libraries/Sensores
 LibName36=/home/amr/Documentos/KiCad/kicad-libraries/Reles
 LibName37=/home/amr/Documentos/KiCad/kicad-libraries/Reguladores
 LibName38=/home/amr/Documentos/KiCad/kicad-libraries/Transistores
+[general]
+version=1
