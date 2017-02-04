@@ -42,7 +42,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 15
+Sheet 1 14
 Title ""
 Date "2017-01-15"
 Rev "V.0.1"

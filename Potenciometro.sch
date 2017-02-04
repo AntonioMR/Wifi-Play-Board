@@ -42,7 +42,7 @@ EELAYER 26 0
 EELAYER END
 $Descr User 8268 5846
 encoding utf-8
-Sheet 14 15
+Sheet 13 14
 Title "Potenciometro"
 Date "2017-01-25"
 Rev "V.0.4"
@@ -53,10 +53,10 @@ Comment3 "Documentación en https://github.com/AntonioMR/Nano-Play-Board"
 Comment4 "Nano Play Board"
 $EndDescr
 $Comp
-L +5V #PWR0119
+L +5V #PWR0127
 U 1 1 588EB910
 P 2550 2150
-F 0 "#PWR0119" H 2550 2000 50  0001 C CNN
+F 0 "#PWR0127" H 2550 2000 50  0001 C CNN
 F 1 "+5V" H 2550 2290 50  0000 C CNN
 F 2 "" H 2550 2150 50  0000 C CNN
 F 3 "" H 2550 2150 50  0000 C CNN
@@ -64,10 +64,10 @@ F 3 "" H 2550 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0120
+L GND #PWR0128
 U 1 1 588EB911
 P 2550 3000
-F 0 "#PWR0120" H 2550 2750 50  0001 C CNN
+F 0 "#PWR0128" H 2550 2750 50  0001 C CNN
 F 1 "GND" H 2550 2850 50  0000 C CNN
 F 2 "" H 2550 3000 50  0000 C CNN
 F 3 "" H 2550 3000 50  0000 C CNN
@@ -81,7 +81,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 3000 2550 2650
 Text GLabel 3050 2500 2    60   Output ~ 0
-A7
+CH0
 $Bitmap
 Pos 7500 4400
 Scale 0,350000

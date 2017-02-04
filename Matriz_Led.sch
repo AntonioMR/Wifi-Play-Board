@@ -42,7 +42,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 15
+Sheet 8 14
 Title ""
 Date "2017-01-15"
 Rev "V.0.1"
@@ -53,10 +53,10 @@ Comment3 "Documentación en https://github.com/AntonioMR/Wifi-Play-Board"
 Comment4 "Wifi Play Board"
 $EndDescr
 $Comp
-L GND #PWR080
+L GND #PWR088
 U 1 1 5793BD55
 P 5100 6550
-F 0 "#PWR080" H 5100 6300 50  0001 C CNN
+F 0 "#PWR088" H 5100 6300 50  0001 C CNN
 F 1 "GND" H 5100 6400 50  0000 C CNN
 F 2 "" H 5100 6550 50  0000 C CNN
 F 3 "" H 5100 6550 50  0000 C CNN
