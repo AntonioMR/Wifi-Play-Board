@@ -2107,9 +2107,9 @@ Wire Wire Line
 	1200 2850 1350 2850
 Text GLabel 1200 2850 0    50   BiDi ~ 0
 SCL
-Text GLabel 3400 3300 2    50   Output ~ 0
-LED_RED
 Text GLabel 3400 3500 2    50   Output ~ 0
+LED_RED
+Text GLabel 3400 3300 2    50   Output ~ 0
 LED_GREEN
 Text GLabel 3400 3400 2    50   Output ~ 0
 LED_BLUE
