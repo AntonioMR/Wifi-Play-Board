@@ -42,9 +42,9 @@ EELAYER 26 0
 EELAYER END
 $Descr User 8268 5846
 encoding utf-8
-Sheet 13 14
+Sheet 13 15
 Title "Detectores de infrarrojos"
-Date "2017-01-25"
+Date "2017-01-15"
 Rev "V.0.1"
 Comp "WifiPlayBoard"
 Comment1 "Creada por Antonio Morales"
@@ -231,7 +231,7 @@ Wire Wire Line
 Connection ~ 2750 2000
 $Comp
 L 40106 U11
-U 2 1 588EB570
+U 5 1 588EB570
 P 6300 2700
 F 0 "U11" H 6300 3065 50  0000 C CNN
 F 1 "40106" H 6300 2974 50  0000 C CNN
@@ -243,7 +243,7 @@ F 6 "~" H 6300 2700 60  0001 C CNN "Potencia"
 F 7 "~" H 6300 2700 60  0001 C CNN "Tolerancia"
 F 8 "~" H 6300 2700 60  0001 C CNN "Provedor"
 F 9 "~" H 6300 2700 60  0001 C CNN "Ref_Proveedor"
-	2    6300 2700
+	5    6300 2700
 	0    1    1    0   
 $EndComp
 $Comp

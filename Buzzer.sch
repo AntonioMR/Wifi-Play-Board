@@ -42,15 +42,15 @@ EELAYER 26 0
 EELAYER END
 $Descr User 8268 5846
 encoding utf-8
-Sheet 15 14
+Sheet 15 15
 Title "Buzzer"
-Date "2017-01-25"
-Rev "V.0.4"
-Comp "NanoPlayBoard"
+Date "2017-01-15"
+Rev "V.0.1"
+Comp "WifiPlayBoard"
 Comment1 "Creada por Antonio Morales"
-Comment2 "Web del proyecto http://nanoplayboard.org"
-Comment3 "Documentación en https://github.com/AntonioMR/Nano-Play-Board"
-Comment4 "Nano Play Board"
+Comment2 "Web del proyecto "
+Comment3 "Documentación en https://github.com/AntonioMR/Wifi-Play-Board"
+Comment4 "Wifi Play Board"
 $EndDescr
 $Comp
 L GND #PWR0128

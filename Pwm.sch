@@ -42,7 +42,7 @@ EELAYER 26 0
 EELAYER END
 $Descr User 8268 5846
 encoding utf-8
-Sheet 7 14
+Sheet 7 15
 Title "Puerto de expansión para servomotores"
 Date "2017-01-15"
 Rev "V.0.1"

@@ -42,7 +42,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 14
+Sheet 1 15
 Title ""
 Date "2017-01-15"
 Rev "V.0.1"
@@ -65,19 +65,19 @@ F0 "Control" 60
 F1 "Control.sch" 60
 $EndSheet
 $Sheet
-S 8800 1600 1400 1000
+S 8800 1600 1250 850 
 U 587C6740
 F0 "Acelerometro" 60
 F1 "Acelerometro.sch" 60
 $EndSheet
 $Sheet
-S 5700 4700 1400 1000
+S 5700 4700 1250 850 
 U 587AB37A
 F0 "Expansor GPIO" 60
 F1 "Expansor_GPIO.sch" 60
 $EndSheet
 $Sheet
-S 7250 4700 1400 1000
+S 7250 4700 1250 850 
 U 587AB37D
 F0 "Expansor ADC" 60
 F1 "Expansor_ADC.sch" 60
@@ -95,25 +95,25 @@ F0 "Matriz_Led" 60
 F1 "Matriz_Led.sch" 60
 $EndSheet
 $Sheet
-S 7250 3100 1400 1000
+S 7250 3100 1250 850 
 U 587C425D
 F0 "LED's" 60
 F1 "Leds.sch" 60
 $EndSheet
 $Sheet
-S 4150 4700 1400 1000
+S 4150 4700 1250 850 
 U 587C427E
 F0 "Pulsadores" 60
 F1 "Pulsadores.sch" 60
 $EndSheet
 $Sheet
-S 8800 3100 1400 1000
+S 8800 3100 1250 850 
 U 588EAC0E
 F0 "Ultrasonidos" 60
 F1 "Ultrasonidos.sch" 60
 $EndSheet
 $Sheet
-S 8800 4700 1400 1000
+S 8800 4700 1250 850 
 U 588EAF83
 F0 "Infrarrojos" 60
 F1 "Infrarrojos.sch" 60
@@ -129,5 +129,11 @@ S 2150 3100 1250 850
 U 588EBE10
 F0 "Buzzer" 60
 F1 "Buzzer.sch" 60
+$EndSheet
+$Sheet
+S 5700 3100 1250 850 
+U 589DE393
+F0 "LDR" 60
+F1 "LDR.sch" 60
 $EndSheet
 $EndSCHEMATC

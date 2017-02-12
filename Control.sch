@@ -42,7 +42,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 14
+Sheet 3 15
 Title ""
 Date "2017-01-15"
 Rev "V.0.1"
@@ -2550,7 +2550,6 @@ NoConn ~ 8700 5500
 NoConn ~ 7250 4700
 NoConn ~ 7250 4500
 NoConn ~ 2050 6100
-NoConn ~ 1650 6400
 Connection ~ 4500 5800
 Connection ~ 2550 1300
 $Comp
@@ -2594,4 +2593,17 @@ Wire Wire Line
 	1350 3400 1350 3300
 Wire Wire Line
 	1350 3300 1500 3300
+$Comp
+L GND #PWR?
+U 1 1 58A0B452
+P 1650 6550
+F 0 "#PWR?" H 1650 6300 50  0001 C CNN
+F 1 "GND" H 1655 6377 50  0000 C CNN
+F 2 "" H 1650 6550 50  0000 C CNN
+F 3 "" H 1650 6550 50  0000 C CNN
+	1    1650 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 6550 1650 6400
 $EndSCHEMATC

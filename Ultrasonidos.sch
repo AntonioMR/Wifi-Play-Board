@@ -42,9 +42,9 @@ EELAYER 26 0
 EELAYER END
 $Descr User 8268 5846
 encoding utf-8
-Sheet 12 14
+Sheet 12 15
 Title "Puerto de expansión para sensor por ultrasonidos"
-Date "2017-01-25"
+Date "2017-01-15"
 Rev "V.0.1"
 Comp "WifiPlayBoard"
 Comment1 "Creada por Antonio Morales"

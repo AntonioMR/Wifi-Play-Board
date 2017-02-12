@@ -42,7 +42,7 @@ EELAYER 26 0
 EELAYER END
 $Descr User 8268 5846
 encoding utf-8
-Sheet 4 14
+Sheet 4 15
 Title "Acelerometro 3 ejes"
 Date "2017-01-15"
 Rev "V.0.1"
