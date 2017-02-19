@@ -1,4 +1,4 @@
-update=vie 17 feb 2017 00:24:32 CET
+update=dom 19 feb 2017 01:06:05 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -65,8 +65,6 @@ LibName35=/home/amr/Documentos/KiCad/kicad-libraries/Sensores
 LibName36=/home/amr/Documentos/KiCad/kicad-libraries/Reles
 LibName37=/home/amr/Documentos/KiCad/kicad-libraries/Reguladores
 LibName38=/home/amr/Documentos/KiCad/kicad-libraries/Transistores
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -77,3 +75,5 @@ NetFmtName=
 SpiceAjustPassiveValues=0
 LabSize=60
 ERC_TestSimilarLabels=1
+[general]
+version=1
