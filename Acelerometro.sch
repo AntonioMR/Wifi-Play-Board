@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Wifi_PB-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -53,9 +54,11 @@ Comment3 "Documentación en https://github.com/AntonioMR/Wifi-Play-Board"
 Comment4 "Wifi Play Board"
 $EndDescr
 $Comp
-L BSS138 Q3
+L BSS138-RESCUE-Wifi_PB Q3
 U 1 1 57952913
 P 5250 2100
+AR Path="/57952913" Ref="Q3"  Part="1" 
+AR Path="/587C6740/57952913" Ref="Q3"  Part="1" 
 F 0 "Q3" V 5486 2100 50  0000 C CNN
 F 1 "BSS138" V 5577 2100 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 5450 2025 50  0001 L CIN
@@ -102,9 +105,11 @@ SDA2
 Text GLabel 6900 2700 2    60   BiDi ~ 0
 SCL2
 $Comp
-L BSS138 Q4
+L BSS138-RESCUE-Wifi_PB Q4
 U 1 1 57952D65
 P 5900 2600
+AR Path="/57952D65" Ref="Q4"  Part="1" 
+AR Path="/587C6740/57952D65" Ref="Q4"  Part="1" 
 F 0 "Q4" V 6136 2600 50  0000 C CNN
 F 1 "BSS138" V 6227 2600 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 6100 2525 50  0001 L CIN

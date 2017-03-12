@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Wifi_PB-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -1862,23 +1863,6 @@ F4 0B 89 52 73 00 8B 80 91 08 28 22 8F 6D AB AA BD D3 E7 C4 3E A7 59 B4 A9 94 4D
 EndData
 $EndBitmap
 $Comp
-L PCA9551 U9
-U 1 1 586D5351
-P 1550 3800
-F 0 "U9" H 2100 3717 60  0000 C CNN
-F 1 "PCA9551" H 2100 3597 79  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 1550 3930 60  0001 C CNN
-F 3 "" H 1550 3930 60  0001 C CNN
-F 4 "510-730" H 2300 3600 60  0001 C CNN "Ref_Proveedor"
-F 5 "nxp" H 1950 3700 60  0001 C CNN "Fabricante"
-F 6 "PCA9551PW" H 2350 3700 60  0001 C CNN "Ref"
-F 7 "rs" H 2000 3600 60  0001 C CNN "Provedor"
-F 8 "" H 1550 3800 60  0001 C CNN "Tolerancia"
-F 9 "" H 1550 3800 60  0001 C CNN "Potencia"
-	1    1550 3800
-	1    0    0    -1  
-$EndComp
-$Comp
 L CONN_01X03 P4
 U 1 1 586D53FE
 P 6550 2750
@@ -2060,25 +2044,25 @@ $EndComp
 Wire Wire Line
 	1750 2100 1750 1950
 Wire Wire Line
-	2850 2750 3400 2750
+	2850 2800 3400 2800
 Wire Wire Line
-	2850 2850 3400 2850
+	2850 2900 3400 2900
 Wire Wire Line
-	2850 2950 3400 2950
+	2850 3000 3400 3000
 Wire Wire Line
-	2850 3050 3400 3050
+	2850 3100 3400 3100
 Wire Wire Line
-	2850 3300 3400 3300
+	2850 3450 3400 3450
 Wire Wire Line
-	2850 3400 3400 3400
+	2850 3550 3400 3550
 Wire Wire Line
-	2850 3500 3400 3500
+	2850 3650 3400 3650
 Wire Wire Line
-	2850 3600 3400 3600
+	2850 3750 3400 3750
 Wire Wire Line
 	1200 3650 1350 3650
 Wire Wire Line
-	1200 3250 1200 3950
+	1200 3000 1200 3950
 $Comp
 L GND #PWR082
 U 1 1 586D660B
@@ -2107,21 +2091,21 @@ Wire Wire Line
 	1200 2850 1350 2850
 Text GLabel 1200 2850 0    50   BiDi ~ 0
 SCL
-Text GLabel 3400 3500 2    50   Output ~ 0
+Text GLabel 3400 3650 2    50   Output ~ 0
 LED_RED
-Text GLabel 3400 3300 2    50   Output ~ 0
+Text GLabel 3400 3450 2    50   Output ~ 0
 LED_GREEN
-Text GLabel 3400 3400 2    50   Output ~ 0
+Text GLabel 3400 3550 2    50   Output ~ 0
 LED_BLUE
-Text GLabel 3400 3600 2    50   Output ~ 0
+Text GLabel 3400 3750 2    50   Output ~ 0
 BUZZER
-Text GLabel 3400 2750 2    50   Output ~ 0
+Text GLabel 3400 2800 2    50   Output ~ 0
 SERVO1
-Text GLabel 3400 2850 2    50   Output ~ 0
+Text GLabel 3400 2900 2    50   Output ~ 0
 SERVO2
-Text GLabel 3400 2950 2    50   Output ~ 0
+Text GLabel 3400 3000 2    50   Output ~ 0
 SERVO3
-Text GLabel 3400 3050 2    50   Output ~ 0
+Text GLabel 3400 3100 2    50   Output ~ 0
 SERVO4
 Text GLabel 5250 1250 0    50   Input ~ 0
 SERVO1
@@ -2209,40 +2193,6 @@ Wire Wire Line
 	5600 1500 5600 1550
 Wire Wire Line
 	5600 2250 5600 2200
-Wire Wire Line
-	750  2900 750  3050
-Wire Wire Line
-	750  3050 1350 3050
-$Comp
-L +5V #PWR088
-U 1 1 58700007
-P 750 2450
-F 0 "#PWR088" H 750 2300 50  0001 C CNN
-F 1 "+5V" H 765 2623 50  0000 C CNN
-F 2 "" H 750 2450 50  0000 C CNN
-F 3 "" H 750 2450 50  0000 C CNN
-	1    750  2450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	750  2450 750  2600
-$Comp
-L R R16
-U 1 1 58700C10
-P 750 2750
-F 0 "R16" V 850 2650 50  0000 L CNN
-F 1 "10K" V 750 2650 50  0000 L CNN
-F 2 "Resistencias:R_0805" V 680 2750 50  0001 C CNN
-F 3 "" H 750 2750 50  0000 C CNN
-F 4 "VISHAY" H 750 2750 60  0001 C CNN "Fabricante"
-F 5 "CRCW080510K0FKEA" H 750 2750 60  0001 C CNN "Ref"
-F 6 "1/8W" H 750 2750 60  0001 C CNN "Potencia"
-F 7 "1%" H 750 2750 60  0001 C CNN "Tolerancia"
-F 8 "TME" H 750 2750 60  0001 C CNN "Provedor"
-F 9 "CRCW080510K0FKEA" H 750 2750 60  0001 C CNN "Ref_Proveedor"
-	1    750  2750
-	1    0    0    -1  
-$EndComp
 $Comp
 L R R20
 U 1 1 58700D4F
@@ -3259,4 +3209,60 @@ EA 9E CD 4B 42 05 28 0D 16 BD F8 39 1D 1D 77 6B 52 2B 7E 62 FF 96 FA 7D 9D 59 1F
 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L PCA9634 U9
+U 1 1 58C5CF56
+P 1550 4000
+F 0 "U9" H 1600 3950 60  0000 C CNN
+F 1 "PCA9634" H 2100 4750 79  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H -600 1330 60  0001 C CNN
+F 3 "" H -600 1330 60  0001 C CNN
+F 4 "~" H 1550 4000 60  0001 C CNN "Fabricante"
+F 5 "~" H 1550 4000 60  0001 C CNN "Ref"
+F 6 "~" H 1550 4000 60  0001 C CNN "Potencia"
+F 7 "~" H 1550 4000 60  0001 C CNN "Tolerancia"
+F 8 "~" H 1550 4000 60  0001 C CNN "Provedor"
+F 9 "~" H 1550 4000 60  0001 C CNN "Ref_Proveedor"
+F 10 "~" H 1550 4000 60  0001 C CNN "Provider_2"
+F 11 "~" H 1550 4000 60  0001 C CNN "Ref_Provider_2"
+	1    1550 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR088
+U 1 1 58C5D109
+P 2100 4350
+F 0 "#PWR088" H 2100 4100 50  0001 C CNN
+F 1 "GND" H 2105 4177 50  0000 C CNN
+F 2 "" H 2100 4350 50  0000 C CNN
+F 3 "" H 2100 4350 50  0000 C CNN
+	1    2100 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 4350 2100 4200
+$Comp
+L +5V #PWR089
+U 1 1 58C5D20D
+P 800 3550
+F 0 "#PWR089" H -100 -300 50  0001 C CNN
+F 1 "+5V" H 815 3723 50  0000 C CNN
+F 2 "" H -100 -150 50  0001 C CNN
+F 3 "" H -100 -150 50  0001 C CNN
+	1    800  3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  3550 800  3850
+Wire Wire Line
+	800  3850 1350 3850
+Wire Wire Line
+	1350 3750 800  3750
+Connection ~ 800  3750
+Wire Wire Line
+	1200 3550 1350 3550
+Connection ~ 1200 3550
+Wire Wire Line
+	1200 3000 1350 3000
+Connection ~ 1200 3250
 $EndSCHEMATC

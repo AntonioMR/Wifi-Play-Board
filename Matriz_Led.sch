@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Wifi_PB-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -53,10 +54,10 @@ Comment3 "Documentación en https://github.com/AntonioMR/Wifi-Play-Board"
 Comment4 "Wifi Play Board"
 $EndDescr
 $Comp
-L GND #PWR089
+L GND #PWR090
 U 1 1 5793BD55
 P 5100 6550
-F 0 "#PWR089" H 5100 6300 50  0001 C CNN
+F 0 "#PWR090" H 5100 6300 50  0001 C CNN
 F 1 "GND" H 5100 6400 50  0000 C CNN
 F 2 "" H 5100 6550 50  0000 C CNN
 F 3 "" H 5100 6550 50  0000 C CNN

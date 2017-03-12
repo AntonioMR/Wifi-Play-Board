@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Wifi_PB-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -53,7 +54,7 @@ Comment3 "Documentación en https://github.com/AntonioMR/Wifi-Play-Board"
 Comment4 "Wifi Play Board"
 $EndDescr
 $Comp
-L MCP3204 U8
+L MCP3204-RESCUE-Wifi_PB U8
 U 1 1 587AC1C1
 P 4050 2550
 F 0 "U8" H 3600 2050 50  0000 C CNN
